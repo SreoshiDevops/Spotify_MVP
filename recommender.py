@@ -9,7 +9,7 @@ except Exception:  # pragma: no cover - optional dependency
 
 from spotify_search import SpotifySearcher
 
-DEFAULT_MODEL = os.getenv("GEMINI_MODEL", "gemini-1.5-flash")
+DEFAULT_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash")
 
 
 def _configure_genai(api_key: Optional[str] = None) -> str:
